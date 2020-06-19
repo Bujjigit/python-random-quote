@@ -1,11 +1,11 @@
-def Test_func():
+def Test():
   print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes[-1])
 
-if __name__== "__Test_func__":
-  main()
+if __name__== "__main__":
+  Test()
